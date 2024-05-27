@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&family=Lexend+Deca:wght@100..900&family=Outfit&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+:root {
+--Red: hsl(0, 78%, 62%);
+--Cyan: hsl(180, 62%, 55%);
+--Orange: hsl(34, 97%, 64%);
+--Blue: hsl(212, 86%, 64%);
+--Very-Dark-Blue: hsl(234, 12%, 34%);
+--Grayish-Blue: hsl(229, 6%, 66%);
+--Very-Light-Gray: hsl(0, 0%, 98%);
+}
+body {
+
+
+    background-color: var(--Very-Light-Gray);
+}
+.pargraph {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--Grayish-Blue);
+    margin-top: 40px;
+    text-align: center;
+}
+.pargraph .one{
+    font-size: 30px;
+}
+.pargraph .two {
+    font-size: 30px;
+    color: var(--Very-Dark-Blue);
+    margin-bottom: 20px;
+}
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 15px;
+    gap:10px 20px;
+    margin-top: 75px;
+}
+.super {
+    display: flex;
+    flex-direction: column;
+    border-top: 5px  solid ;
+    border-top-color:var(--Cyan) ;
+    padding: 10px;
+    box-shadow: 0 5px 25px rgba(1 1 1 /20%);
+    color: var(--Grayish-Blue);
+    
+}
+.super div {
+    align-self: flex-end;
+
+}
+.super h3 {
+   color: var(--Very-Dark-Blue);
+}
+.team {
+    display: flex;
+    flex-direction: column;
+    border-top: 5px  solid ;
+    padding: 10px;
+    border-top-color:var(--Red) ;
+    box-shadow: 0 5px 25px rgba(1 1 1 /20%);
+    color: var(--Grayish-Blue);
+    
+}
+.team div {
+    align-self: flex-end;
+
+}
+.team h3 {
+    color: var(--Very-Dark-Blue);
+}
+.karma{
+    display: flex;
+    flex-direction: column;
+    border-top: 5px  solid ;
+    border-top-color:var(--Orange) ;
+    box-shadow: 0 5px 25px rgba(1 1 1 /20%);
+    color: var(--Grayish-Blue);
+    padding: 10px;
+    
+}
+.karma div {
+    align-self: flex-end;
+
+}
+.karma h3 {
+   color: var(--Very-Dark-Blue);
+
+}
+.both {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+.calc{
+    display: flex;
+    flex-direction: column;
+    border-top: 5px  solid ;
+    border-top-color:var(--Blue) ;
+    box-shadow: 0 5px 25px rgba(1 1 1 /20%);
+    color: var(--Grayish-Blue);
+    padding: 10px;
+}
+.calc div {
+    align-self: flex-end;
+
+}
+.calc  h3 {
+  color: var(--Very-Dark-Blue);
+}
